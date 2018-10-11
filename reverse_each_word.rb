@@ -12,5 +12,5 @@ def reverse_each_word(arg)
   
   tmp.collect do |word|
     word.reverse
-  end
+  end`
 end
