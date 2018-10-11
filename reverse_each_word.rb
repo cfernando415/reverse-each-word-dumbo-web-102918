@@ -8,4 +8,5 @@ def reverse_each_word(arg)
       word.reverse + " "
     end
   end
+  tmp
 end
