@@ -6,5 +6,5 @@ def reverse_each_word(arg)
     str_answer << tmp[counter - 1]
     counter -= 1
   end
-  puts str_answer
+  str_answer
 end
