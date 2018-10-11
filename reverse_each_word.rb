@@ -3,10 +3,9 @@ def reverse_each_word(arg)
   tmp = arg.split(" ")
   tmp.collect.each do |word|
     if tmp.last == word
-      word.reverse
+      puts word.reverse
     else
-      word.reverse + " "
+      puts word.reverse + " "
     end
   end
-  tmp
 end
