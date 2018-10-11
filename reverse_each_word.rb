@@ -2,7 +2,11 @@ def reverse_each_word(arg)
   str_answer = String.new("")
   tmp = arg.split(" ")
   tmp.each do |word|
-    str_answer << "#{word}".reverse + " "
+    if tmp.last == word
+      str_answer << "#{word}".reverse
+    else
+      str_answer << "#{word}".reverse + " "
+    end
   end
-  str_answer.chomp
+  str_answer
 end
