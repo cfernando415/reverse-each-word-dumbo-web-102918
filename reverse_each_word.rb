@@ -5,7 +5,7 @@ def reverse_each_word(arg)
     if tmp.last == word
       str_answer << "#{word}".reverse
     else
-      str_answer << word.reverse + " "
+      str_answer << "#{word}".reverse + " "
     end
   end
 end
