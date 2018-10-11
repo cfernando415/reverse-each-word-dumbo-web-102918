@@ -8,5 +8,4 @@ def reverse_each_word(arg)
       str_answer << "#{word}".reverse + " "
     end
   end
-  str_answer
 end
