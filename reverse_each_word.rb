@@ -4,5 +4,5 @@ def reverse_each_word(arg)
   tmp.each do |word|
     str_answer << "#{word}".reverse + " "
   end
-  str_answer
+  str_answer.chomp
 end
