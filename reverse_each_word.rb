@@ -9,4 +9,6 @@ def reverse_each_word(arg)
     end
   end
   str_answer
+  
+  tmp.collect { word 
 end
