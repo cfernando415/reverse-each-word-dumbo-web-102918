@@ -10,5 +10,7 @@ def reverse_each_word(arg)
   end
   str_answer
   
-  tmp.collect { word 
+  tmp.collect do |word|
+    word.reverse
+  end
 end
